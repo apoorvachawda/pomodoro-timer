@@ -70,3 +70,8 @@ button:focus{
   transition: 0.5s;*/
   margin-top: 49px !important;
 }
+@media(max-width:768px){
+	button{
+		min-width : 350px;
+	}
+}
