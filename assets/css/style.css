@@ -6,7 +6,7 @@ section{
 	text-align: center;
 }
 .heading{
-	font-size: 55px;
+	font-size: 70px;
 	color: #fff;
 	/*font-family: 'Handlee', cursive;*/
 	font-family: 'Lobster Two', cursive;
@@ -15,7 +15,7 @@ section{
 	padding: none;
 }
 #time{
-	font-size: 60px;
+	font-size: 90px;
 	font-family: 'Oswald', sans-serif;
 	background: -webkit-linear-gradient(#ee0979,#ff6a00);
     -webkit-background-clip: text;
@@ -23,14 +23,17 @@ section{
     margin-top: -20px;
     text-shadow: 1px #fff;
 }
+.buttons-container{
+	text-align: center;
+}
 .btn{
-	width: 150px;
-	height: 50px;
-	margin: 10px;
+	width: 250px;
+	height: 70px;
+	margin: 20px;
 	border: solid 1px #fff;
 	border-radius: 5px;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	color: #fff;
 	/*text-shadow: white;*/
 	/*transition-duration: 0.4s;*/
@@ -51,7 +54,7 @@ button:focus{
 	/*font-family: 'Satisfy', cursive;*/
 	font-family: 'Lobster Two', cursive;
 	/*font-family: 'Kalam', cursive;*/
-	font-size: 43px;
+	font-size: 50px;
 	color: #fff;
 }
 .messagetransitiondown{
@@ -68,10 +71,6 @@ button:focus{
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;*/
-  margin-top: 49px !important;
+  margin-top: 45px !important;
 }
-@media(max-width:768px){
-	button{
-		min-width : 350px;
-	}
-}
+
